@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0;}
+header{
+        height: 150px;
+        border: 1px solid purple;
+}
+header ul{
+    display: flex;
+    background: rgb(51, 51, 51);
+}
+header ul li{
+    list-style: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color white;
+}
+header ul li a:hover{
+    text-decoration: none;
+    color: pink;
+}
